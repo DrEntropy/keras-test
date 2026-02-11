@@ -1,6 +1,6 @@
 # keras-test
 
-A learning exercise exploring Keras 3's multi-backend support, comparing JAX and PyTorch performance on a Mac Studio M4 and a Google Colab T4 GPU. This uses example code from Keras 3 documentation.
+A learning exercise exploring Keras 3's multi-backend support, comparing JAX and PyTorch performance on a Mac Studio M3 Ultra and a Google Colab T4 GPU. This uses example code from Keras 3 documentation.
 
 ## Notebooks
 
@@ -18,7 +18,7 @@ An Xception-inspired architecture for classifying 180x180 color images. Uses res
 
 Keras 3 lets you swap backends via an environment variable. Timing is per training step:
 
-| Task      | Backend | Mac Studio M4 | Colab T4 GPU |
+| Task      | Backend | Mac Studio M3 Ultra | Colab T4 GPU |
 | --------- | ------- | -------------- | ------------ |
 | MNIST     | JAX     | 12 ms/step     | 2 ms/step    |
 | MNIST     | PyTorch | 20 ms/step     | 10 ms/step   |
