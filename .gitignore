@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+# data 
+PetImages
+kagglecatsanddogs_5340.zip
