@@ -1,7 +1,7 @@
 [project]
 name = "keras-test"
 version = "0.1.0"
-description = "Add your description here"
+description = "experiments with keras"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

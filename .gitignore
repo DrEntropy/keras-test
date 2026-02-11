@@ -9,6 +9,14 @@ wheels/
 # Virtual environments
 .venv
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+save_at_*.keras
+
+# Generated visualizations
+*.png
 
 # data 
 PetImages
